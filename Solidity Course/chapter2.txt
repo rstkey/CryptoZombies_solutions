@@ -1,0 +1,14 @@
+1. 2 data types=> address and mapping 
+
+2. Each account has an address, which you can think of like a bank account number. It's a unique identifier that points to that account
+
+3. Mappings are another way of storing organized data in Solidity just like arrays and structs. A mapping is essentially a key-value store for storing and looking up data
+
+4. Note: In Solidity, function execution always needs to start with an external caller. A contract will just sit on the blockchain doing nothing until someone calls one of its functions. So there will always be a msg.sender.
+
+5.  Solidity doesn't have native string comparison, so we compare their keccak256 hashes to see if the strings are equal
+
+6. Storage vs Memory 
+In Solidity, there are two locations you can store variables — in storage and in memory.
+
+7. 
