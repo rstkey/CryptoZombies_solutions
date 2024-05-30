@@ -11,4 +11,6 @@
 6. Storage vs Memory 
 In Solidity, there are two locations you can store variables — in storage and in memory.
 
-7. 
+7. For our contract to talk to another contract on the blockchain that we don't own, first we need to define an interface.
+
+8. keccak256 is used for generating random number in Solidity
