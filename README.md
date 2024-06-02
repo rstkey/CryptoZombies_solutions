@@ -1,4 +1,3 @@
-# Ethereum Explained: A Simple Analogy
 
 <h1>Curious to Know How Ethereum Works?</h1>
 
