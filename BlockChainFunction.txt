@@ -1,0 +1,8 @@
+How blockchain functions?
+You write a message (call a function).
+A manager collects it with other messages (transactions).
+The manager solves a hard puzzle (Proof of Work).
+The solution and messages are posted (block is published).
+Other managers verify it.
+Everyone moves on to the next set of messages and puzzle.
+This way, everyone can trust the messages on the board because they know they've been verified and agreed upon by the network of managers.
