@@ -14,3 +14,11 @@ advance solidity concepts
   }    miniMe will save the gas 
 
   cluster identical data types together (i.e. put them next to each other in the struct) so that Solidity can minimize the required storage space. For example, a struct with fields uint c; uint32 a; uint32 b; will cost less gas than a struct with fields uint32 a; uint c; uint32 b; because the uint32 fields are clustered together.
+
+2. In Solidity, mappings are used to create key-value pairs where each key is associated with a specific value
+
+3. calldata is somehow similar to memory, but it's only available to external functions.
+
+4. view functions don't cost any gas when they're called externally by a user.This is because view functions don't actually change anything on the blockchain – they only read the data. 
+
+5. external view does not cost any gas but internal view marked function cost gas
