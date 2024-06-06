@@ -1,0 +1,7 @@
+1. WEB3
+call is used for view and pure functions. It only runs on the local node, and won't create a transaction on the blockchain.
+    Using Web3.js, you would call a function named myMethod with the parameter 123 as follows:
+    myContract.methods.myMethod(123).call()
+
+2. SEND 
+send will create a transaction and change data on the blockchain. You'll need to use send for any functions that aren't view or pure.
