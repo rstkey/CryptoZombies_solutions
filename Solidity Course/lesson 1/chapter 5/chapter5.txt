@@ -1,0 +1,13 @@
+1. Implementing a token contract
+When implementing a token contract, the first thing we do is copy the interface to its own Solidity file and import it, import "./erc721.sol";. Then we have our contract inherit from it, and we override each method with a function definition.
+
+2. OVERFLOW AND UNDERFLOW
+In this case, we've caused it to overflow — so number is counterintuitively now equal to 0 even though we increased it. (If you add 1 to binary 11111111, it resets back to 00000000, like a clock going from 23:59 to 00:00).
+
+An underflow is similar, where if you subtract 1 from a uint8 that equals 0, it will now equal 255 (because uints are unsigned, and cannot be negative).
+
+3. NATSPEC
+@title and @author are straightforward.
+@notice explains to a user what the contract / function does. @dev is for explaining extra details to developers.
+@param and @return are for describing what each parameter and return value of a function are for.
+Note that you don't always have to use all of these tags for every function — all tags are optional. But at the very least, leave a @dev note explaining what each function does.
